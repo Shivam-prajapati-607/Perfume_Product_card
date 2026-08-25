@@ -43,13 +43,10 @@ body{
     
 }
 .Image-product{
-    max-width:50%;
+    width:50%;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
     
-}
-.Image-product img{
-    width: 100%;
-    min-height: 100%;
-
 }
 .product-details{
     width: 50%;
@@ -127,18 +124,13 @@ button:hover{
 
     .Image-product {
         width: 100%;
+        min-height: 350px;
         max-width: none;
-        height: 314px;
+        background-image: url(./images/image-product-mobile.jpg);
+        background-size: cover;
         overflow: hidden;
     }
 
-    .Image-product img {
-        display: block;
-        width: 100%;
-        height: 430px;
-        min-height: 0;
-        object-fit: cover;
-    }
 
     .product-details {
         width: 100%;
